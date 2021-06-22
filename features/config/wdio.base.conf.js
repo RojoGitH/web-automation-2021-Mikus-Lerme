@@ -299,6 +299,14 @@ exports.config = {
      */
     // afterCommand: function (commandName, args, result, error) {
     // },
+
+    afterStep: function (
+        test, context, { error, result, duration, passed, retries}
+    ){
+        if(error){
+            browser.takeScreenshot();
+        }
+    },
     /**
      * Gets executed after all tests are done. You still have access to all global variables from
      * the test.

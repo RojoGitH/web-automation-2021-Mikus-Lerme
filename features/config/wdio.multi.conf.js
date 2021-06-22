@@ -9,12 +9,11 @@ const chromeOptions = {
 }
 
 exports.config = merge(baseConfig.config, {
-    maxInstances: 4,
+    maxInstances: 3,
     capabilities: {
         user1: {
             capabilities: {
-                browserName: 'chrome',
-                'goog:chromeOptions': chromeOptions
+                browserName: 'firefox'
             }
         },
         user2: {

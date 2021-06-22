@@ -1,5 +1,5 @@
 {
-  "name": "day_3",
+  "name": "FinalTask",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,7 +14,8 @@
   "dependencies": {
     "@wdio/cli": "^7.7.3",
     "@wdio/sync": "^7.7.3",
-    "deepmerge": "^4.2.2"
+    "deepmerge": "^4.2.2",
+    "faker": "^5.5.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.5",
